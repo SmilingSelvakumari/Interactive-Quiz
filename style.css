@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 {
+
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    margin: 10px;
+}
+
+.questions {
+    margin-bottom: 30px;
+
+
+}
+
+.questions label {
+
+    margin-bottom: 25px;
+}
+
+.questions p {
+    margin-bottom: 10px;
+    /* Add space below each question */
+}
+
+#submitbtn {
+    background-color: rgb(46, 189, 70);
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+
+
+}
+
+.btncenter {
+    text-align: center;
+}
+
+.container-2 {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgb(184, 181, 177) 0px 10px 20px;
+}

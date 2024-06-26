@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-1" id="quizContainer">
+        <h1 class="heading">Interactive Quiz</h1>
+        <div class="questions">
+            <p>1. What is the capital of france?</p>
+            <label> <input type="radio" name="Ques1" value="Paris">Paris</label>
+            <label> <input type="radio" name="Ques1" value="Berlin">Berlin</label>
+            <label><input type="radio" name="Ques1" value="London">London</label>
+        </div>
+        <div class="questions">
+            <p>2. Which planet is known as the Red Planet?</p>
+            <label><input type="radio" name="Ques2" value="Mars">Mars</label>
+            <label> <input type="radio" name="Ques2" value="Venus">Venus</label>
+            <label><input type="radio" name="Ques2" value="Jupiter">Jupiter</label>
+        </div>
+        <div class="questions">
+            <p>3. Who wrote the play "Romeo and Juliet"?</p>
+            <label><input type="radio" name="Ques3" value="William Shakespeare">William Shakespeare</label>
+            <label> <input type="radio" name="Ques3" value="Mark Twain">Mark Twain</label>
+            <label><input type="radio" name="Ques3" value="Charles Dickens">Charles Dickens</label>
+        </div>
+        <div class="questions">
+            <p>4. Which country is known as the Land of the Rising Sun?</p>
+            <label> <input type="radio" name="Ques4" value="China">China</label>
+            <label><input type="radio" name="Ques4" value="Japan">Japan</label>
+            <label><input type="radio" name="Ques4" value="India">India</label>
+        </div>
+        <div class="questions">
+            <p>5. What is the largest ocean on Earth?</p>
+            <label><input type="radio" name="Ques5" value="Indian Ocean">Indian Ocean</label>
+            <label> <input type="radio" name="Ques5" value="Atlantic Ocean">Atlantic Ocean</label>
+            <label> <input type="radio" name="Ques5" value="Pacific Ocean">Pacific Ocean</label>
+        </div>
+        <div class="btncenter">
+            <button id="submitbtn" onclick="showResult()">Submit</button>
+        </div>
+    </div>
+    <div class="container-2" id="resultContainer" style="display: none;">
+        <h1 class="heading">Interactive Quiz</h1>
+        <h3>Your Quiz Result</h3>
+        <p id="scoreDisplay">Score:</p>
+
+    </div>
+
+    <script src="./script.js"> </script>
+</body>
+
+</html>
