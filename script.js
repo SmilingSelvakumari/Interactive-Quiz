@@ -1,12 +1,14 @@
-document.getElementById("submitbtn").addEventListener("click", function () {
-    showResult();
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("submitbtn").addEventListener("click", function () {
+        showResult();
+    });
 });
 
 function showResult() {
     // Check if all questions are answered
     if (!areAllQuestionsAnswered()) {
         alert("Please answer all questions before submitting.");
-
+        return;
     }
 
     //Ensures all questions have been answered before calculating and displaying the result.
